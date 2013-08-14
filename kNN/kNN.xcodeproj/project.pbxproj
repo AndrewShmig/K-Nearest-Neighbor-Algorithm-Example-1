@@ -13,12 +13,15 @@
 		1A9A042D3F5F38453D999304 /* ASAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A086DC95358F13B201EA0 /* ASAAppDelegate.m */; };
 		1A9A05E4A03D6F58D1D66810 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A06153AEC5C23C7F9A673 /* SenTestingKit.framework */; };
 		1A9A06C4228858331A2A3E3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A06A23FB84A5220A9D561 /* Default.png */; };
+		1A9A08908C36209029F98E46 /* kNNClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A05B490073A18D4A86049 /* kNNClassifier.m */; };
+		1A9A09C92468ED31BBB5ACEE /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A030DA425C930D6CA2615 /* Film.m */; };
 		1A9A09FB7A2DCB4128BBC641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0D2F370021A07D802197 /* Foundation.framework */; };
 		1A9A0A70C0003889EDC7A0B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A02E78D1244075E9CB3D2 /* CoreGraphics.framework */; };
 		1A9A0B711D25350700D74EAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A09B1B52C74D1DDFB18AC /* Default@2x.png */; };
 		1A9A0BA561C530C642FCA18B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0CE238D887747F0AEAFD /* UIKit.framework */; };
 		1A9A0D07C845698D91AC9DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0CE238D887747F0AEAFD /* UIKit.framework */; };
 		1A9A0DBFE2614BE6F8E1C4F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A05F58D5A37B3ABB4EDC4 /* main.m */; };
+		1A9A0EBE393EA6149B77D7E9 /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0964E9F9FFD7550C76C5 /* Pair.m */; };
 		1A9A0FC32431ADCE84104231 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A002DBCAB1879E2263A2F /* InfoPlist.strings */; };
 		1A9A0FF46ACC66CAEBF2ED78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0D2F370021A07D802197 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -35,7 +38,11 @@
 
 /* Begin PBXFileReference section */
 		1A9A01D6CE12B6BC3396A18A /* kNN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kNN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9A02D954D66A362BEE54E5 /* kNNClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kNNClassifier.h; sourceTree = "<group>"; };
 		1A9A02E78D1244075E9CB3D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A9A030DA425C930D6CA2615 /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		1A9A03B70C6A800B7807D8EB /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		1A9A05B490073A18D4A86049 /* kNNClassifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kNNClassifier.m; sourceTree = "<group>"; };
 		1A9A05F58D5A37B3ABB4EDC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A9A06153AEC5C23C7F9A673 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1A9A066879F85665E850D9F6 /* kNNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "kNNTests-Info.plist"; sourceTree = "<group>"; };
@@ -43,10 +50,12 @@
 		1A9A0747B0F5B25BC9DF0A26 /* kNN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kNN-Prefix.pch"; sourceTree = "<group>"; };
 		1A9A07CEF3A57D7C7B70F77E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1A9A086DC95358F13B201EA0 /* ASAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAAppDelegate.m; sourceTree = "<group>"; };
+		1A9A0964E9F9FFD7550C76C5 /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
 		1A9A09B1B52C74D1DDFB18AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1A9A0A4F9366A08B05AA9A44 /* ASAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAAppDelegate.h; sourceTree = "<group>"; };
 		1A9A0AD456FE7E9800E14B76 /* kNNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kNNTests.m; sourceTree = "<group>"; };
 		1A9A0B2FEA7667CDE059C4C7 /* kNNTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kNNTests.h; sourceTree = "<group>"; };
+		1A9A0B50E4215C328153889A /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
 		1A9A0CE238D887747F0AEAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A9A0D2F370021A07D802197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A9A0D4AD1D390CBDAF67A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -86,6 +95,7 @@
 				1A9A0498E407756E8C56F747 /* Frameworks */,
 				1A9A022450A548B4B40AC6B8 /* kNN */,
 				1A9A058E30A636D6CCE24199 /* kNNTests */,
+				1A9A031BE2E47178E132C277 /* AdditionalClasses */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +107,18 @@
 				1A9A086DC95358F13B201EA0 /* ASAAppDelegate.m */,
 			);
 			path = kNN;
+			sourceTree = "<group>";
+		};
+		1A9A031BE2E47178E132C277 /* AdditionalClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A030DA425C930D6CA2615 /* Film.m */,
+				1A9A03B70C6A800B7807D8EB /* Film.h */,
+				1A9A05B490073A18D4A86049 /* kNNClassifier.m */,
+				1A9A02D954D66A362BEE54E5 /* kNNClassifier.h */,
+				1A9A0F9279F6F384D0A5648B /* Pair */,
+			);
+			path = AdditionalClasses;
 			sourceTree = "<group>";
 		};
 		1A9A0498E407756E8C56F747 /* Frameworks */ = {
@@ -150,6 +172,15 @@
 				1A9A07CEF3A57D7C7B70F77E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9A0F9279F6F384D0A5648B /* Pair */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A0964E9F9FFD7550C76C5 /* Pair.m */,
+				1A9A0B50E4215C328153889A /* Pair.h */,
+			);
+			path = Pair;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +301,9 @@
 			files = (
 				1A9A0DBFE2614BE6F8E1C4F6 /* main.m in Sources */,
 				1A9A042D3F5F38453D999304 /* ASAAppDelegate.m in Sources */,
+				1A9A09C92468ED31BBB5ACEE /* Film.m in Sources */,
+				1A9A08908C36209029F98E46 /* kNNClassifier.m in Sources */,
+				1A9A0EBE393EA6149B77D7E9 /* Pair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
