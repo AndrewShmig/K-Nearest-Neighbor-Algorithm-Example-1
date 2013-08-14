@@ -1,4 +1,5 @@
-<h1>K-Nearest Neighbor Algorithm Example #1</h1>
+<h1>K-Nearest Neighbor Algorithm 
+Example #1</h1>
 
 [K-nearest neighbor algorithm search results](https://duckduckgo.com/k-nearest_neighbor_algorithm)
 
