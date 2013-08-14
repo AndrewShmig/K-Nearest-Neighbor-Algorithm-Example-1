@@ -104,3 +104,39 @@
 <img src="http://habrastorage.org/storage2/ed2/197/247/ed2197247a6a7e91a45e3c3f85687a08.jpg"/>
 
 <h1>Результаты работы классификатора</h1>
+<img src="http://habrastorage.org/storage2/9e2/31e/dec/9e231edec1374782de07df3eca23cee7.png"/>
+
+Итоговая таблица с установленными жанрами для фильмов:
+<table>
+  <tr>
+    <td>Наименование</td>
+    <td>Кол-во поцелуев</td>
+    <td>Кол-во смешных сцен</td>
+    <td>Кол-во взрывов/выстрелов</td>
+    <td>Жанр</td>
+  </tr>
+  
+  <tr>
+    <td align="center">Морской бой</td>
+    <td align="center">0</td>
+    <td align="center">4</td>
+    <td align="center">74</td>
+    <td align="center">Боевик</td>
+  </tr>
+  
+  <tr>
+    <td align="center">Город грехов</td>
+    <td align="center">24</td>
+    <td align="center">15</td>
+    <td align="center">58</td>
+    <td align="center">Драма</td>
+  </tr>
+  
+  <tr>
+    <td align="center">Призрачный патруль</td>
+    <td align="center">3</td>
+    <td align="center">42</td>
+    <td align="center">65</td>
+    <td align="center">Боевик, комедия, драма</td>
+  </tr>
+</table>
